@@ -16,5 +16,6 @@ namespace WebAppStart.Data
         }
 
         public DbSet<WebAppStart.Models.Movie> Movie { get; set; }
+        public DbSet<WebAppStart.Models.VideoCard> VideoCard { get; set; }
     }
 }

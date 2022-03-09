@@ -1,0 +1,32 @@
+﻿@model IEnumerable<WebAppStart.Models.VideoCard>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Main Page</title>
+    <link rel="stylesheet" href="~/css/StyleSheetHome.css" type="text/css" />
+  </head>
+  <body>
+<div class="main" >
+    <div class = "row">
+        <div class="col-1-3">
+            <div class="Filter">
+
+            <a class="BtnFilter" asp-area="" asp-controller="Home" asp-action="Index">
+                <h3>
+                Сбросить фильтры
+                </h3>
+            </a>
+            </div>
+        </div>
+        <div class= "col-1-2">
+            <h1>2</h1>
+        </div>
+    </div>
+</div>
+  </body>
+</html>
