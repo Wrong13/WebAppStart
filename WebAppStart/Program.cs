@@ -14,6 +14,8 @@ var app = builder.Build();
 using (var scope = app.Services.CreateScope()) // Инициализатор заполнения
 {
     var services = scope.ServiceProvider;
+
+    WebAppStart.Data.SeeData.DataVideoCard.Initialize(services);
     WebAppStart.Data.SeeData.SeeData.Initialize(services);
 }
 
