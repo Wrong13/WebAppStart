@@ -27,16 +27,16 @@ body {
     float:left;
     width:15%;
     text-decoration:none;
+    margin-left:20px;
 }
 .BtnFilter {
     text-decoration: none;
     color: white;
     border-color: white;
     border-bottom-width: medium;
-    margin-top:10px;
 }
 .Filter{
-    margin-top:10px;
+    margin-left:10px;
 }
 .col-1-2
 {
@@ -74,3 +74,5 @@ a
 .navbar-toggler{
     color:white;
 }
+
+
