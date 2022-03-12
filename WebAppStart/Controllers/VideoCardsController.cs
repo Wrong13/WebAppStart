@@ -21,9 +21,17 @@ namespace WebAppStart.Controllers
         }
 
         // GET: VideoCards
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchString)
         {
-            return View(await _context.VideoCard.ToListAsync());
+            var Videocard = from x in _context.VideoCard
+                         select x;
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                Videocard = Videocard.Where(s => s.NameCard!.Contains(searchString));
+            }
+
+            return View(await Videocard.ToListAsync());
         }
 
         // GET: VideoCards/Details/5
