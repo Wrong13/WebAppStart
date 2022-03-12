@@ -25,15 +25,15 @@ body {
 .col-1-3
 {
     float:left;
-    width:15%;
+    width:20%;
     text-decoration:none;
-    margin-left:20px;
 }
 .BtnFilter {
     text-decoration: none;
     color: white;
     border-color: white;
     border-bottom-width: medium;
+    margin-left:10px;
 }
 .Filter{
     margin-left:10px;
@@ -41,8 +41,8 @@ body {
 .col-1-2
 {
     
-    float:left;
-    width:85%;
+    float:right;
+    width:90%;
 }
 a:hover {
     color: white;
@@ -55,6 +55,7 @@ a
 }
 .row {
     display:inline-block;
+    width:75%;
 }
 .main {
 }
