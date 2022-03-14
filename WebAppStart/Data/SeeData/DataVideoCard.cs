@@ -29,7 +29,8 @@ namespace WebAppStart.Data.SeeData
                         Model = "PowerColor AMD Radeon 550 LP",
                         Series = "1212",
                         Price = 19999,
-                        Manufacturer = "121"
+                        Manufacturer = "121",
+                        Image = "~Resources/Images/VideoCards/PowerColorAMDRadeonRX550 RedDragonLP.jpg"
                     },
 
                     new Models.VideoCard
@@ -39,7 +40,8 @@ namespace WebAppStart.Data.SeeData
                         Model = "PowerColor AMD Radeon RX 550 Red Dragon LP",
                         Series = "PowerColor Red Dragon",
                         Price = 19999,
-                        Manufacturer = "121"
+                        Manufacturer = "121",
+                        Image = "~Resources/Images/VideoCards/PowerColorAMDRadeonRX550 RedDragonLP.jpg"
                     },
 
                     new Models.VideoCard
@@ -49,7 +51,9 @@ namespace WebAppStart.Data.SeeData
                         Model = "Palit GeForce RTX 3070 Ti GamingPro",
                         Series = "Palit Gaming Pro",
                         Price = 199999,
-                        Manufacturer = "121"
+                        Manufacturer = "121",
+                        Image = "~Resources/Images/VideoCards/PowerColorAMDRadeonRX550 RedDragonLP.jpg" 
+
                     },
 
                     new Models.VideoCard
@@ -59,11 +63,14 @@ namespace WebAppStart.Data.SeeData
                         Model = "PowerColor AMD Radeon RX 6900 XT Red Devil",
                         Series = "PowerColor Red Devil",
                         Price = 254999,
-                        Manufacturer = "121"
+                        Manufacturer = "121",
+                        Image = "~Resources/Images/VideoCards/PowerColorAMDRadeonRX550 RedDragonLP.jpg"
                     }
                 );
                 context.SaveChanges();
             }
+            
         }
     }
+    
 }
