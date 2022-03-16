@@ -30,7 +30,7 @@ namespace WebAppStart.Data.SeeData
                         Series = "1212",
                         Price = 19999,
                         Manufacturer = "121",
-                        Image = "~Resources/Images/VideoCards/PowerColorAMDRadeonRX550 RedDragonLP.jpg"
+                        Image = "/Resources/Images/VideoCards/PowerColorAMDRadeon550LP.jpg"
                     },
 
                     new Models.VideoCard
@@ -41,7 +41,7 @@ namespace WebAppStart.Data.SeeData
                         Series = "PowerColor Red Dragon",
                         Price = 19999,
                         Manufacturer = "121",
-                        Image = "~Resources/Images/VideoCards/PowerColorAMDRadeonRX550 RedDragonLP.jpg"
+                        Image = "/Resources/Images/VideoCards/PowerColorAMDRadeonRX550 RedDragonLP.jpg"
                     },
 
                     new Models.VideoCard
@@ -52,7 +52,7 @@ namespace WebAppStart.Data.SeeData
                         Series = "Palit Gaming Pro",
                         Price = 199999,
                         Manufacturer = "121",
-                        Image = "~Resources/Images/VideoCards/PowerColorAMDRadeonRX550 RedDragonLP.jpg" 
+                        Image = "/Resources/Images/VideoCards/PalitGeforceRTX3070TiGamingPro.jpg"
 
                     },
 
@@ -64,7 +64,7 @@ namespace WebAppStart.Data.SeeData
                         Series = "PowerColor Red Devil",
                         Price = 254999,
                         Manufacturer = "121",
-                        Image = "~Resources/Images/VideoCards/PowerColorAMDRadeonRX550 RedDragonLP.jpg"
+                        Image = "/Resources/Images/VideoCards/PowerColorAMDRadeonRX6900XTRedDevil.jpg"
                     }
                 );
                 context.SaveChanges();

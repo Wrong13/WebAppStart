@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="wwwroot\Resources\Images\Pa lit.jpg" />
+    <None Include="wwwroot\Resources\Images\VideoCards\PalitGeforceRTX3070TiGamingPro.jpg" />
     <None Include="wwwroot\Resources\Images\VideoCards\PowerColorAMDRadeon550LP.jpg" />
     <None Include="wwwroot\Resources\Images\VideoCards\PowerColorAMDRadeonRX550 RedDragonLP.jpg" />
     <None Include="wwwroot\Resources\Images\VideoCards\PowerColorAMDRadeonRX6900XTRedDevil.jpg" />
