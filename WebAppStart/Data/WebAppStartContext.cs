@@ -17,5 +17,7 @@ namespace WebAppStart.Data
 
         public DbSet<WebAppStart.Models.Movie> Movie { get; set; }
         public DbSet<WebAppStart.Models.VideoCard> VideoCard { get; set; }
+        public DbSet<WebAppStart.Models.User> User { get; set; }
+        public DbSet<WebAppStart.Models.Basket> Basket { get; set; }
     }
 }
