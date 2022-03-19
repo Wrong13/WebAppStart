@@ -73,7 +73,7 @@ a
     color:white;
 }
 .navbar-toggler{
-    color:white;
+    background-color:white;
 }
 .SearchinString
 {
@@ -82,4 +82,6 @@ a
 .SearchinSub{
     width:18%;
 }
-
+.nav-item-right{
+    margin-right:10px;
+}
